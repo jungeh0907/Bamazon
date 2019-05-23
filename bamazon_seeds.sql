@@ -2,11 +2,11 @@ USE bamazon_db;
 
 INSERT INTO departments (department_name, overhead_costs) VALUES
 ("Books", 52000.00),
-("CDs & Vinyl", 9000.00),
-("Home & Kitchen", 80000.00),
+("CDs", 9000.00),
+("Home", 80000.00),
 ("Movies & TV", 15000.00),
 ("Musical Instruments", 27000.00),
-("Sports & Fitness", 63000.00),
+("Sports", 63000.00),
 ("Video Games", 44000.00);
 
 INSERT INTO products (department_id, product_name, price, stock_quantity) VALUES
